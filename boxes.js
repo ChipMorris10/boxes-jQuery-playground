@@ -19,7 +19,7 @@ console.log( "The document is ready!" );
 //   'color' : 'black'
 // });
 // append <h4> text to the box
-// uncomment line 23 to get this to work
+// uncomment line 24 to get this to work
 // secretBox.append( "<h1>Secret box</h1");
 
 // ----------- T A S K 2 -----------
@@ -133,28 +133,29 @@ console.log( "The document is ready!" );
 
 // ----------- T A S K 4 -----------
 
+// Write a click handler __on the conatainer div__.  The click handler should turn the container background to black and the background of the original div that was clicked to white.  If the user original div that was clicked happened to be the container div, change the background of the container div to lime green.  You __should not__ use any selectors for this exercise.  You can do it completely with what is given to you in the event callback.
 
+// call jQuery
+// find #container
+// add on click function
+// if id equals container (where the mouse was clicked)
+// turn background to limegreen
+// uncomment lines 144-148 to get this to work
+// $('#container').on('click', function(event) {
+//   var target = event.target;
+//   if(this.id === 'container') {
+//     $(this).css('background-color', 'limegreen');
+// }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// if the mouse was clicked in .box
+// set background color to black
+// I had difficulty with this and had to see what others were doing for my answer
+// uncomment lines 154-158 to get this to work
+//   if ($(target).hasClass('box')) {
+//     $(target).css('background-color', 'white');
+//     $(this).css('background-color', 'black');
+//   }
+// });
 
 
 }); // end document function
