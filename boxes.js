@@ -140,9 +140,8 @@ console.log( "The document is ready!" );
 // add on click function
 // if id equals container (where the mouse was clicked)
 // turn background to limegreen
-// uncomment lines 144-148 to get this to work
+// uncomment lines 144-147 & 154-158 to get this to work
 // $('#container').on('click', function(event) {
-//   var target = event.target;
 //   if(this.id === 'container') {
 //     $(this).css('background-color', 'limegreen');
 // }
@@ -150,9 +149,9 @@ console.log( "The document is ready!" );
 // if the mouse was clicked in .box
 // set background color to black
 // I had difficulty with this and had to see what others were doing for my answer
-// uncomment lines 154-158 to get this to work
-//   if ($(target).hasClass('box')) {
-//     $(target).css('background-color', 'white');
+// uncomment lines 144-147 & 154-158 to get this to work
+//   if ($(event.target).hasClass('box')) {
+//     $(event.target).css('background-color', 'white');
 //     $(this).css('background-color', 'black');
 //   }
 // });
